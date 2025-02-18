@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wofost-gym"
+version = "1.0.0"
+dependencies = [
+  "tyro",
+  "requests",
+  "matplotlib",
+  "omegaconf",
+  "torch",
+  "tensorboard",
+]
+requires-python = ">=3.10"
+authors = [
+  {name = Anonymous Authors},
+]
+maintainers = [
+  {name = Anonymous Authors}
+]
+description = "WOFOSTGym"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+keywords = ["Crop", "Model", "WOFOST"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://wofostgym.github.io/"
+Documentation = "https://wofostgym.github.io/wofost-docs/"

@@ -1,0 +1,8 @@
+.DS_Store
+.Rhistory
+**__pycache__
+*.pcse
+*.npy
+wandb/
+*.zip
+

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pcse_gym"
+version = "1.0.0"
+dependencies = [
+  "pcse",
+  "gymnasium",
+  "numpy",
+  "pandas",
+  "pyyaml",
+  "pygame",
+  "matplotlib",
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Anonymous Authors", email = "anon@anon.edu"},
+]
+maintainers = [
+  {name = "Anonymous Authors", email = "anon@anon.edu"}
+]
+description = "Gym wrapper for the PCSE environment"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+keywords = ["pcse", "gym", "gymnasium"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://wofostgym.github.io/"
+Documentation = "https://wofostgym.github.io/wofost-docs/"

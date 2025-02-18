@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "imitation"
+version = "1.0.0"
+dependencies = [
+  "numpy"
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Anonymous Authors", email = "anon@anon.edu"},
+]
+maintainers = [
+  {name = "Anonymous Authors", email = "anon@anon.edu"}
+]
+description = "Modified PCSE directory"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+keywords = ["Crop", "Model", "WOFOST"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/wofostgym/wofostgym"
+Documentation = "https://github.com/wofostgym/wofostgym"
